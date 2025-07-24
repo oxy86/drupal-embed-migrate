@@ -15,8 +15,11 @@ A Drush command to migrate legacy video embeds (e.g. `<video_url>`, Instagram UR
 
 ## Installation
 
+Place the module in `web/modules/custom/embed_migrate/`
+
+Then enable it with:
+
 ```bash
-composer require drupal/embed_migrate
 drush en embed_migrate
 ```
 
@@ -34,8 +37,8 @@ drush embed-migrate --type=article --dry-run
 
 ## Author
 
-Dimitris Kalamaras – socnetv.org
+Dimitris Kalamaras – https://github.com/oxy86/
 
-### LICENSE 
+## LICENSE 
 
 MIT

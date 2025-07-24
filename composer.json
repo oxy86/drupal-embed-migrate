@@ -1,0 +1,10 @@
+{
+  "name": "drupal/embed_migrate",
+  "type": "drupal-module",
+  "autoload": {
+    "psr-4": {
+      "Drupal\\embed_migrate\\": "src/"
+    }
+  }
+}
+

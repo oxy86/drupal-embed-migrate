@@ -1,0 +1,6 @@
+name: 'Embed Migrate'
+type: module
+description: 'Drush command to migrate legacy embeds in node bodies to core <drupal-url> format.'
+core_version_requirement: ^10
+package: Custom
+

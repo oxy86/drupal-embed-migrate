@@ -1,0 +1,7 @@
+services:
+  embed_migrate.commands:
+    class: \Drupal\embed_migrate\Drush\Commands\EmbedMigrateCommands
+    arguments: ['@database', '@entity_type.manager']
+    tags:
+      - { name: drush.command }
+
